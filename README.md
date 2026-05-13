@@ -1,11 +1,11 @@
 # Raghav | Cloud Automation & DevOps Portfolio
-**5.10 Years of Experience in Cloud Operations & Reliability**
+**6+ Years of Experience in Cloud Operations & Reliability Engineering**
 [LinkedIn Profile](PASTE_YOUR_LINKEDIN_URL_HERE) | Gurgaon, India
 
 ---
 
 ## 🌟 Professional Overview
-I am a Cloud Operations professional with over 5 years of experience specializing in high-availability production environments. My expertise lies in maintaining system uptime and observability using enterprise tools like **Splunk** and **Dynatrace**. 
+I am a seasoned Cloud Operations professional with over 6 years of experience specializing in high-availability production environments. My expertise lies in maintaining system uptime and observability using enterprise tools like **Splunk** and **Dynatrace**.
 
 I am currently bridging the gap between Operations and DevOps by leveraging **Python** for cloud automation and **Kubernetes** for container orchestration to build scalable, self-healing infrastructures.
 
@@ -39,7 +39,7 @@ I am currently bridging the gap between Operations and DevOps by leveraging **Py
 ---
 
 ## 📈 The "Operations" Advantage
-With nearly 6 years in the IT industry, I bring a production-first mindset to DevOps:
+With over 6 years in the IT industry, I bring a production-first mindset to DevOps:
 *   **Uptime Focused:** Proven track record of ensuring 99.9% application uptime.
 *   **Advanced RCA:** Expert-level ability to identify bottlenecks using logs and performance metrics in Splunk and Dynatrace.
 *   **Seamless Transition:** I combine deep operational knowledge with modern automation tools to build resilient systems.
