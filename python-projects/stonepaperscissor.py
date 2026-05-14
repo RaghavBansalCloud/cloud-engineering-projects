@@ -1,4 +1,5 @@
-#this program is to play stone,papaer and scissor game with computer.
+#This program is to play stone,papaer and scissor game with computer.
+
 print("Welcome!\nLet's start the game.....")
 import random
 list=["stone","paper","scissor"]
