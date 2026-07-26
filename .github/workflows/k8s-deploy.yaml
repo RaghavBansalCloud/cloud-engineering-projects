@@ -1,0 +1,29 @@
+name: Kubernetes Manifest Validation
+
+on:
+  push:
+    branches: [ "main", "master" ]
+    paths:
+      - 'k8s/**'
+  pull_request:
+    branches: [ "main", "master" ]
+    paths:
+      - 'k8s/**'
+
+jobs:
+  validate-k8s:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Kubectl
+        uses: azure/setup-kubectl@v3
+
+      - name: Validate Kubernetes Manifests
+        run: |
+          echo "Validating deployment manifest..."
+          kubectl dry-run=client -f k8s/deployment.yaml
+          echo "Validating service manifest..."
+          kubectl dry-run=client -f k8s/service.yaml
+          echo "Kubernetes manifests are syntactically valid!"
