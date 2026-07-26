@@ -23,7 +23,7 @@ jobs:
       - name: Validate Kubernetes Manifests
         run: |
           echo "Validating deployment manifest..."
-          kubectl dry-run=client -f k8s/deployment.yaml
+          kubectl apply --dry-run=client -f k8s/deployment.yaml
           echo "Validating service manifest..."
-          kubectl dry-run=client -f k8s/service.yaml
+          kubectl apply --dry-run=client -f k8s/service.yaml
           echo "Kubernetes manifests are syntactically valid!"
